@@ -53,29 +53,15 @@ int main(){
                                 	case 1://sub menu 1.3
                                 		cout << "\n--- luchar contra la sombra ---" << endl;
                                         cout << "pierde, y siente un temor que recorre cada centimetro de su piel y termina en la desolacion y la congoja" << endl;
-                                        cout << "1. " << endl;
-                                        cout << "2.  " << endl;
-                                        cout << "3.Salir del programa" << endl;
-                                        int decision1;
-                                        cin >> decision1;
                                         break;
                                     case 2:
                                     	cout << "\n--- ser mas astuto---" << endl;
                                         cout << "la engaña pero siente miedo si es que lo encuentra" << endl;
-                                        cout << "1. contar el tesoro" << endl;
-                                        cout << "2.  " << endl;
-                                        cout << "3.Salir del programa" << endl;
-                                        int decision2;
-                                        cin >> decision2;
                                         break;
                                     case 3:
 									    cout << "\n--- Salir del programa---" << endl;
                                         cout << "en un lugar seguro trato de inspecionar el tesoro" << endl;
-                                        cout << "1. contar el tesoro" << endl;
-                                        cout << "2.  " << endl;
-                                        cout << "3.Salir del programa" << endl;
-                                        int decision3;
-                                        cin >> decision3;    
+										break;                                            
 								}
                                 break;
                             case 2://sub menu 1.2
@@ -90,15 +76,11 @@ int main(){
 									case 1:
 									    cout << "\n--- camina y entra en la cueva---" << endl;
                                         cout << "al entrar en la cueva encuentra lo mas horrible que jamas habia imaginado, y muere de miedo" << endl;
-                                        
-                                        int decision1;
-                                        cin >> decision1; 
+                                        break;
                                     case 2:    
 									    cout << "\n--- se sienta y espera---" << endl;
                                         cout << "sentado ve a lo lejos un moustro de sin cabeza, con miedo se levanta y se regresa a su casa" << endl;
-                                        int decision2;
-                                        cin >> decision2; 
-									break;
+									    break;
 								}    
                         		break;
                         	case 3:
@@ -129,27 +111,19 @@ int main(){
                                 	case 1:
                                 		cout << "\n--- retornar ---" << endl;
                                         cout << "siente miedo de perder a su familia y regresa a su hogar con temor de no encontrarlos" << endl;
-                                        cout << "1. contar el tesoro" << endl;
-                                        cout << "2.  " << endl;
-                                        cout << "3.Salir del programa" << endl;
-                                        int decision1;
-                                        cin >> decision1;
+                                        break;
                                     case 2:
                                     	cout << "\n--- llega una luchuza con una carta ---" << endl;
-                                        cout << "en la carta, un amigo le cuenta que su familia murio por un huracan; solo triste y muerto de miedo por no tener nada se quita la vida" << endl;
-                                        cout << "1. " << endl;
-                                        cout << "2.  " << endl;
-                                        cout << "3.Salir del programa" << endl;
-                                        int decision2;
-                                        cin >> decision2;
-									    
-                                		
+                                        cout << "en la carta, un amigo le cuenta que su familia murio por un huracan; solo, triste y muerto de miedo por no tener nada se quita la vida" << endl;                                        						                                		
                                 		break;
+                                	default:
+                                	    cout<<"fin del juego";
+									break;	
 								}
                         		break;
                         	case 2:
                         		cout << "\n--- correr para salir de ahí ---" << endl;
-                                cout << "reflexionando que vivir es un cumulo de sentimientos, decide irse,  pero la sombra que se aparece no lo deja irse." << endl;
+                                cout << "sale, y encuentra un minotauro " << endl;
                                 cout << "1. luchar contra la sombra" << endl;
                                 cout << "2. ser mas astuto" << endl;
                                 cout << "3.Salir del programa" << endl;
@@ -172,25 +146,25 @@ int main(){
 				break;
                 
             case 2:
-			    cout << "\n--- el camino de la desesperanza del corazon ---" << endl;
-                cout << "durante el camino empieza a sentir una soledad fria en el pecho, y decide" << endl;
-                cout << "1. sentarse y reflexionar" << endl;
-                cout << "2. correr para salir de ahí" << endl;
+			    cout << "\n--- va al muelle y busca un barco ---" << endl;
+                cout << "encuentra un barco que sarpa para rumanía y otro para eel triangulo de las bermudas" << endl;
+                cout << "1. sube al barco de rumania " << endl;
+                cout << "2. sube al barco de el triangulo de las bermudas" << endl;
                 cout << "3. Salir del programa" << endl;
                 int decision2;
                 cin >> decision2;          
                 break;
             case 3:
             	cout << "\n---se adentra al bosque siniestro ---" << endl;
-                cout << "caminando por el bosque encuentra con un choza del cual salía humo" << endl;
-                cout << "1. Seguir el mapa" << endl;
-                cout << "2. Ignorar el mapa" << endl;
+                cout << "oscuro camino lleva a las puertas del infierno; asi dice la placa en la entrada del bosque" << endl;
+                cout << "1. se adentra sin sudarlo" << endl;
+                cout << "2. " << endl;
                 cout << "3. Salir del programa" << endl;
                 int decision3;
                 cin >> decision3;
                 break;
             case 4:
-            	cout << "\n---se adentra al bosque siniestro ---" << endl;
+            	cout << "\n---se encamina a la comarca ---" << endl;
                 cout << "caminando por el bosque encuentra con un choza del cual salía humo" << endl;
                 cout << "1. Seguir el mapa" << endl;
                 cout << "2. Ignorar el mapa" << endl;
