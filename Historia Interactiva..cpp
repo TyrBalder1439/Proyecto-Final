@@ -8,10 +8,8 @@ int main(){
 	 int opcion;
 	 int miedo = 0;
 	 int res;
-	 	 
-	while (opcion){
-		
-	}
+	 
+	do{
 	setlocale(LC_ALL, "");
 	cout << "Érase una vez un hombre que tenía dos hijos totalmente distintos. Pedro, el mayor, era un chico listo y responsable, pero muy miedoso. En cambio su hermano pequeño, Juan, jamás tenía miedo a nada, así que en la comarca todos le llamaba Juan sin miedo. A Juan no le daban miedo las tormentas, ni los ruidos extraños, ni escuchar cuentos de monstruos en la cama. El miedo no existía para él. A medida que iba creciendo, cada vez tenía más curiosidad sobre qué era sentir miedo porque él nunca había tenido esa sensación.Un día le dijo a su familia que se iba una temporada para ver si conseguía descubrir lo que era el miedo. Sus padres intentaron impedírselo, pero fue imposible. Juan era muy cabezota y estaba decidido a lanzarse a la aventura." << endl;
 	cout << "\n AYUDA A JUAN A DESCUBRIR QUE ES SENTIR MIEDO" << endl;
@@ -83,7 +81,9 @@ int main(){
 									case 4:
 									    cout << "\n--- Salir del programa---" << endl;
                                         cout << "Fin de la partida" << endl;
-										break;										                                           
+										break;	
+									default:										
+                                        cout << "Opción no válida. Volviendo al inicio.\n";										                                           
 								}
                                 break;
                             case 2://sub menu 1.2
@@ -401,6 +401,8 @@ int main(){
 				break;                
             case 2:
 			    cout << "\n--- va al muelle y busca un barco ---" << endl;
+			    res=miedo+10;
+            	cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                 cout << "encuentra un barco que sarpa para rumanía y otro para eel triangulo de las bermudas" << endl;
                 cout << "1. sube al barco de rumania " << endl;
                 cout << "2. sube al barco de el triangulo de las bermudas" << endl;
@@ -411,45 +413,45 @@ int main(){
 				switch (decision2){
                 	case 1://sub menu 1.1
                         cout << "\n--- sube al barco de rumania ---" << endl;
-                        res=miedo+50;
+                        res=miedo+30;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "se enbarca con la idea de ir a buscar el castillo de Dracula. " << endl;
-                        cout << "1. " << endl;
-                        cout << "2. continuar para encontar la cueva" << endl;
-                        cout << "3. perderse dentro del cendero" << endl;
+                        cout << "se enbarca con la idea de ir a buscar el castillo de Dracula; al llegar a rumanía busca la ruta mas corta al castillo. " << endl;
+                        cout << "1. por las catacumbas de la ciudad." << endl;
+                        cout << "2. desde bucares toma un carro." << endl;
+                        cout << "3. por el bosque encantado." << endl;
                         cout << "4. Salir del programa" << endl;
                         int decision1;
                         cin >> decision1;
                         switch (decision1){
                         	case 1://sub menu 1.2
-                        	    cout << "\n--- quedarse en su soledad infita ---" << endl;
+                        	    cout << "\n--- por las catacumbas de la ciudad ---" << endl;
                         	    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "reflexiona que vivir es un cumulo de sentimientos,entonces, decide irse,  pero la sombra que se aparece no lo deja irse." << endl;
-                                cout << "1. luchar contra la sombra" << endl;
-                                cout << "2. ser mas astuto que la sombra" << endl;
-                                cout << "3. llorar por no encontar una solucion" << endl;
+                                cout << "se cuenta que en las catacumbas existe un pasadizo al castillo;durante el camino encuentra craneos apilados, esqueletos y muchas ratas, pero adelante se encuentra con ." << endl;
+                                cout << "1. la entrada secreta al castillo." << endl;
+                                cout << "2. un muerto viviente." << endl;
+                                cout << "3. un ahujero en el suelo." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
                                 	case 1://sub menu 1.3
-                                		cout << "\n--- luchar contra la sombra ---" << endl;
+                                		cout << "\n--- la entrada secreta al castillo. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "pierde, y siente un temor que recorre cada centimetro de su piel y termina en la desolacion y la congoja" << endl;
+                                        cout << "entra y encuentra con una oscuridad obsoluta, derepente se encienden unas velas, y suena una campana; de la penunbra sale Dracula que se le avalanza al cuello, con miedo corre y trata de regresar pero es capturado." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- ser mas astuto---" << endl;
+                                    	cout << "\n--- un muerto viviente.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "la engaña pero siente miedo si es que lo encuentra" << endl;
+                                        cout << "su asombro es tal, que se paraliza de miedo al ver que se le aproxima; cuando quiere reaccionar ya es tarde, ya esta siendo deborado por el muerto viviente" << endl;
                                         break;
                                     case 3:
-									    cout << "\n--- llorar por no encontar una solución---" << endl;
+									    cout << "\n--- un ahujero en el suelo.---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "tiene sentimientos de impotencia" << endl;
+                                        cout << "no se da cuenta, cuando cae es jalado por la presion del agua, trata salir a flote, pero por mas que intenta no logra salir y muere ahogado." << endl;
 										break;
 									case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -458,34 +460,34 @@ int main(){
 								}
                                 break;
                             case 2://sub menu 1.2
-							    cout << "\n--- continuar para encontar la cueva ---" << endl;
+							    cout << "\n--- desde bucares toma un carro. ---" << endl;
 							    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "prosigue su camino, hasta divisar la cueva" << endl;
-                                cout << "1. camina y entra en la cueva" << endl;
-                                cout << "2.  se sienta y espera" << endl;
-                                cout << "3. corre se tropiesa y cae" << endl;
+                                cout << "desiende del carro y camina a la entrada del castillo, al tocar la puerta se abre y entra en el castillo, y ante él aparecen 3 puertas, y en cada puerta tiene emblembas, entra a:" << endl;
+                                cout << "1. hay emblema de una gillotina" << endl;
+                                cout << "2. hay emblema de una bandera roja. " << endl;
+                                cout << "3. hay emblema de un murcielago." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
                                 cin >> decision2;
 								switch (decision2){
 									case 1:
-									    cout << "\n--- camina y entra en la cueva---" << endl;
-									    res=miedo+96;
-            	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al entrar en la cueva encuentra lo mas horrible que jamas habia imaginado, y muere de miedo" << endl;
-                                        break;
-                                    case 2:    
-									    cout << "\n--- se sienta y espera---" << endl;
-									    res=miedo+90;
-            	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "sentado ve a lo lejos un moustro de sin cabeza, con miedo se levanta y se regresa a su casa" << endl;
-									    break;
-									case 3:
-									    cout << "\n--- corre se tropiesa y cae---" << endl;
+									    cout << "\n--- hay emblema de una gillotina---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se rompe una pierna y el miedo le arranaca una lagrima, por que sabe que ya no podra regresar" << endl;
+                                        cout << "entra y en el centro de la habitacion encuentra una gillotina y 4 personas con turbantes; se acercan a él lo toman de las manos y lo incan en la gillotina, ponen su cabeza en la madera; el muerto de miedo pide que lo dejen libre, pero no le hacen caso y lo degollan. " << endl;
+                                        break;
+                                    case 2:    
+									    cout << "\n--- hay emblema de una bandera roja.---" << endl;
+									    res=miedo+90;
+            	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
+                                        cout << "al entrar encuentra un cuarto con cuadros de torturas de la santa inquicición, las ve y se llena de temor tales imagenes." << endl;
+									    break;
+									case 3:
+									    cout << "\n--- hay emblema de un murcielago.---" << endl;
+									    res=miedo+100;
+            	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
+                                        cout << "no se da cuenta pero, esa es la habitación de Dracula; al abrirla con miedo ve a Dracula que voltea y se avalanza contra él y lo mata" << endl;
 									    break;
 									case 4:
 										cout << "\n--- Salir del programa---" << endl;
@@ -494,13 +496,13 @@ int main(){
 								}    
                         		break;
                         	case 3:
-                        		cout << "\n--- perderse en el sendero---" << endl;
-							    res=miedo+40;
+                        		cout << "\n--- por el bosque encantado.---" << endl;
+							    res=miedo+35;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "perdido y sin ubicación trata de salir a como de lugar" << endl;
-                                cout << "1. segui su instinto de supervivencía" << endl;
-                                cout << "2. sigue el sendero " << endl;
-                                cout << "3. va dejando marcas en los arboles" << endl;
+                                cout << "camina por un sendero brumoso que lo va llevando a la cima de la colina donde se encuentra el castillo, subiendo se encuentra " << endl;
+                                cout << "1. a Dracula en persona" << endl;
+                                cout << "2. un lobo ambriento." << endl;
+                                cout << "3. va dejando marcas oles" << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision3;
                                 cin >> decision3;
@@ -797,8 +799,9 @@ int main(){
                 exit(0);
             default:
                 cout << "Opción no válida. Inténtalo de nuevo." << endl;
-	
 	}
 	
+	
+	}while (opcion != '5' );
 	return 0;
 }
