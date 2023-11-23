@@ -11,7 +11,7 @@ int main(){
 	 
 	do{
 	setlocale(LC_ALL, "");
-	cout << "Érase una vez un hombre que tenía dos hijos totalmente distintos. Pedro, el mayor, era un chico listo y responsable, pero muy miedoso. En cambio su hermano pequeño, Juan, jamás tenía miedo a nada, así que en la comarca todos le llamaba Juan sin miedo. A Juan no le daban miedo las tormentas, ni los ruidos extraños, ni escuchar cuentos de monstruos en la cama. El miedo no existía para él. A medida que iba creciendo, cada vez tenía más curiosidad sobre qué era sentir miedo porque él nunca había tenido esa sensación.Un día le dijo a su familia que se iba una temporada para ver si conseguía descubrir lo que era el miedo. Sus padres intentaron impedírselo, pero fue imposible. Juan era muy cabezota y estaba decidido a lanzarse a la aventura." << endl;
+	cout << "\nÉrase una vez un hombre que tenía dos hijos totalmente distintos. Pedro, el mayor, era un chico listo y responsable, pero muy miedoso. En cambio su hermano pequeño, Juan, jamás tenía miedo a nada, así que en la comarca todos le llamaba Juan sin miedo. A Juan no le daban miedo las tormentas, ni los ruidos extraños, ni escuchar cuentos de monstruos en la cama. El miedo no existía para él. A medida que iba creciendo, cada vez tenía más curiosidad sobre qué era sentir miedo porque él nunca había tenido esa sensación.Un día le dijo a su familia que se iba una temporada para ver si conseguía descubrir lo que era el miedo. Sus padres intentaron impedírselo, pero fue imposible. Juan era muy cabezota y estaba decidido a lanzarse a la aventura." << endl;
 	cout << "\n AYUDA A JUAN A DESCUBRIR QUE ES SENTIR MIEDO" << endl;
 	cout << "\n--- Menú Principal ---" << endl;
     cout << "1. viajar a la cueva de las sombras" << endl;
@@ -773,19 +773,19 @@ int main(){
 				}          
                 break;
             case 3:
-            	cout << "\n---se adentra al bosque siniestro ---" << endl;
+            	cout << "\n---Se adentra al bosque siniestro ---" << endl;
             	res=miedo+10;
             	cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                 cout << "oscuro camino lleva a las puertas del infierno; asi dice la placa en la entrada del bosque" << endl;
-                cout << "1. se adentra sin dudarlo." << endl;
-                cout << "2. trata de buscar otra ruta." << endl;
-                cout << "3. " << endl;
+                cout << "1. Se adentra sin dudarlo." << endl;
+                cout << "2. El Susurro del Bosque." << endl;
+                cout << "3. Camino subterraneo." << endl;
                 cout << "4. Salir del programa" << endl;
                 int decision3;
                 cin >> decision3;
                 switch (decision3){
                     case 1://sub menu 1.1
-                        cout << "\n--- se adentra sin dudarlo. ---" << endl;
+                        cout << "\n--- Se adentra sin dudarlo. ---" << endl;
                         res=miedo+30;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                         cout << "al ingresar se encuentra con un perro de 3 cabezas;resulta que es el mismo Cerbero, el cual le da a elejir tres cofres que estan enfrente de el. " << endl;
@@ -800,7 +800,7 @@ int main(){
                         	    cout << "\n--- Cofre amararillo.---" << endl;
                         	    res=miedo+45;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "en el cofre amarillo habia tres llaves que solo una de ella abria un pasadizo a lo que él mas deseara." << endl;
+                                cout << "en el cofre amarillo hay tres llaves que solo una de ella abria un pasadizo a lo que él mas deseara." << endl;
                                 cout << "1. primera llave." << endl;
                                 cout << "2. segunda llave." << endl;
                                 cout << "3. tercera llave." << endl;
@@ -833,34 +833,34 @@ int main(){
 								}
                                 break;
                             case 2://sub menu 1.2
-							    cout << "\n--- trata de buscar otra ruta. ---" << endl;
-							    res=miedo+70;
+							    cout << "\n--- Cofre verde. ---" << endl;
+							    res=miedo+40;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "desiende del carro y camina a la entrada del castillo, al tocar la puerta se abre y entra en el castillo, y ante él aparecen 3 puertas, y en cada puerta tiene emblembas, entra a:" << endl;
-                                cout << "1. hay emblema de una gillotina" << endl;
-                                cout << "2. hay emblema de una bandera roja. " << endl;
-                                cout << "3. hay emblema de un murcielago." << endl;
+                                cout << "en este cofre hay 3 monedas, de las cuales tiene que elejir una en la cual es la verdadera :" << endl;
+                                cout << "1. Moneda del Abismo." << endl;
+                                cout << "2. Moneda de la Pesadilla." << endl;
+                                cout << "3. Moneda de la Máscara Rota." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
                                 cin >> decision2;
 								switch (decision2){
 									case 1:
-									    cout << "\n--- hay emblema de una gillotina---" << endl;
+									    cout << "\n---  Moneda del Abismo.---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "entra y en el centro de la habitacion encuentra una gillotina y 4 personas con turbantes; se acercan a él lo toman de las manos y lo incan en la gillotina, ponen su cabeza en la madera; el muerto de miedo pide que lo dejen libre, pero no le hacen caso y lo degollan. " << endl;
+                                        cout << "En esta moneda, hay un remolino oscuro que parece absorber toda la luz a su alrededor. Se dice que quienes optan por esta moneda se enfrentan a la oscuridad interior de sus propios miedos más profundos, desenterrando secretos oscuros y enfrentándose a su propia sombra. " << endl;
                                         break;
                                     case 2:    
-									    cout << "\n--- hay emblema de una bandera roja.---" << endl;
+									    cout << "\n--- Moneda de la Pesadilla.---" << endl;
 									    res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al entrar encuentra un cuarto con cuadros de torturas de la santa inquicición, las ve y se llena de temor tales imagenes." << endl;
+                                        cout << "Esta moneda tiene grabada la imagen de una criatura grotesca con ojos rojos y garras afiladas. Se rumorea que aquellos que eligen esta moneda experimentan pesadillas tan intensas que afectan su realidad, fusionando los límites entre sueño y vigilia.." << endl;
 									    break;
 									case 3:
-									    cout << "\n--- hay emblema de un murcielago.---" << endl;
+									    cout << "\n--- Moneda de la Máscara Rota.---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "no se da cuenta pero, esa es la habitación de Dracula; al abrirla con miedo ve a Dracula que voltea y se avalanza contra él y lo mata" << endl;
+                                        cout << "La superficie de esta moneda muestra la imagen de una máscara rota en varios fragmentos. Aquellos que eligen esta moneda se ven obligados a confrontar las máscaras que han usado para ocultar sus verdaderos temores y debilidades, enfrentándose a la desnudez emocional." << endl;
 									    break;
 									case 4:
 										cout << "\n--- Salir del programa---" << endl;
@@ -869,80 +869,80 @@ int main(){
 								}    
                         		break;
                         	case 3:
-                        		cout << "\n--- por el bosque encantado.---" << endl;
+                        		cout << "\n---Cofre azul.---" << endl;
 							    res=miedo+35;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "camina por un sendero brumoso que lo va llevando a la cima de la colina donde se encuentra el castillo, subiendo se encuentra " << endl;
-                                cout << "1. a Dracula en persona" << endl;
-                                cout << "2. un lobo ambriento." << endl;
-                                cout << "3. un trol que cuida el bosque." << endl;
+                                cout << " en este cofre hay 3 pergaminos, elije uno:" << endl;
+                                cout << "1. Pergamino de la Hora Final." << endl;
+                                cout << "2. Pergamino del Eco Eterno." << endl;
+                                cout << "3. Pergamino de la Memoria Póstuma." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision3;
                                 cin >> decision3;
                                 switch (decision3){
                                 	case 1:
-                                		cout << "\n--- a Dracula en persona.---" << endl;
+                                		cout << "\n--- Pergamino de la Hora Final.---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al verlo, palidece del asombro, y el miedo recorre su cuerpo de pies a cabeza" << endl;
+                                        cout << "ste pergamino tiene un sello que representa un reloj de arena con la última grana de arena cayendo. Aquellos que eligen este pergamino conocen la fecha y hora exactas de su muerte. Pueden vivir sus últimos momentos con plena conciencia de que el tiempo se agota, enfrentando la realidad ineludible de su fin."<< endl;
                                         break;
                                     case 2:    
-									    cout << "\n--- un lobo ambriento.---" << endl;
+									    cout << "\n--- Pergamino del Eco Eterno.---" << endl;
 									    res=miedo+80;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se topa con el lobo, y trata de huir, pero es en vano, lo alcanza y se lo come." << endl;
+                                        cout << "En este pergamino, el sello muestra una figura envuelta en sombras con los ojos vacíos. Aquellos que despliegan este pergamino son condenados a vivir como espectros después de su muerte, siendo testigos eternos de la vida que dejaron atrás, sin poder intervenir ni comunicarse con el mundo de los vivos." << endl;
 									    break;
 									case 3:
-									    cout << "\n--- un trol que cuida el bosque.---" << endl;
+									    cout << "\n--- Pergamino de la Memoria Póstuma.---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al verlo, corre, pero lo alcanza; levanta su pie y lo aplasta." << endl;
+                                        cout << "El sello de este pergamino representa una pluma escribiendo en un libro. Aquellos que eligen este pergamino viven una muerte en la que sus acciones y legado son recordados de manera intensa por aquellos que quedan atrás. Su impacto en el mundo persiste como una sombra eterna." << endl;
 									    break;	
 								}                        		                        		
                         		break;								
 						}
                         break;
                     case 2://sub menu 1.2                	    
-                        cout << "\n---sube al barco de el triangulo de las bermudas---" << endl;
+                        cout << "\n---El Susurro del Bosque.---" << endl;
                         res=miedo+38;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "durante el viaje van pasando acontecimientos fuera de lo normal" << endl;
-                        cout << "1. la mitad de la tripulación desaparece." << endl;
-                        cout << "2. el capitan aparece degollado." << endl;
-                        cout << "3. deja de funcionar el barco." << endl;
+                        cout << "el viento surcaba su cabellera; y a su oido llegaba un susurro que le contaba una historia." << endl;
+                        cout << "1. La Sombra Inexorable." << endl;
+                        cout << "2. El Eco de los Lamentos." << endl;
+                        cout << "3. El Espejismo de la Salida." << endl;
                         cout << "4. Salir del programa" << endl;
                         int decision2;
                         cin >> decision2;
                         switch (decision2){
                         	case 1:
-                        		cout << "\n--- la mitad de la tripulación desaparece. ---" << endl;
-                        		res=miedo+70;
+                        		cout << "\n---La Sombra Inexorable. ---" << endl;
+                        		res=miedo+60;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;                        		
-                                cout << "al salir de su camarote ve el tumulto de gente preguntando que ocurrio, y empiezan a crear teorias del suceso, que a cualquiersa le pondria los pelos de punta." << endl;
-                                cout << "1. la teoria de que fueron raptados por ovnis." << endl;
-                                cout << "2. la teoria de que fueron asesinados " << endl;
-                                cout << "3. la teoria de que habian abandonado el barco por miedo." << endl;
+                                cout << "en el el bosque habitaba una sombra que en vida fue la mas valiente que pudiera existir; pero al final de sus dias decidio irse a morir al bosque siniestro;y sobre su tumba solia aparecer; y sigue la historia." << endl;
+                                cout << "1. La Piel de la Oscuridad." << endl;
+                                cout << "2. La Esencia Perdida. " << endl;
+                                cout << "3. El Eco Oscuro." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
                                 	case 1:
-                                		cout << "\n---la teoria de que fueron raptados por ovnis.---" << endl;
+                                		cout << "\n---La Piel de la Oscuridad..---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "todos comentaban que eso sucedia por aquella zona, pero muy pocos creían esas cosas, pero juan tuvo miedo de que le fuera a pasar eso." << endl;
+                                        cout << "se dice que aquel que visite la tumba de la sombra inexorable perdera su propia sombra y jamas podra salir del bobsque." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n---la teoria de que fueron asesinados---" << endl;
+                                    	cout << "\n---La Esencia Perdida.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se sabía que un asesino seriel estaba en el barco, por eso es que la mayoria de la gente comentaba que eso fue lo que paso, pero el detalle es que el asesino serial tambien desaparecio, entonces juan andaba con miedo, no deseaba que se le apareciera." << endl;                                        						                                		
+                                        cout << "se dice que aquel que visite la tumba de la sombra inexorable perdera la esencia de su ser y jamas podra salir del bobsque." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n--- la teoria de que habian abandonado el barco por miedo.---" << endl;
+                                    	cout << "\n--- El Eco Oscuro.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "muchos ecucharon las historias de lo que se vive en el triangulo de las bermudas, y por eso se creia eso, entonces juan empezaba a creer que eso era real." << endl;                                        						                                		
+                                        cout << "se dice que aquel que visite la tumba de la sombra inexorable sera cubierto de un manto oscuro por toda la eternidad." << endl;                                        						                                		
                                 		break;	
                                 	default:
                                 	    cout<<"fin del juego";
@@ -950,34 +950,34 @@ int main(){
 								}
                         		break;
                         	case 2:
-                        		cout << "\n---el capitan aparece degollado.---" << endl;
-                        		res=miedo+70;
+                        		cout << "\n---El Eco de los Lamentos---" << endl;
+                        		res=miedo+74;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "hubo un panico general por el acontecimiento, y muchos apuntaban que habia sido porque el sabía que nadie iba a salir vivo de ese viaje porque:" << endl;
-                                cout << "1. el lugar donde se dirigian estaba maldito. " << endl;
-                                cout << "2. nunca habia salido un barco con tripulación viva." << endl;
-                                cout << "3. un largo peregrinar en aguas desconocidas." << endl;
+                                cout << "dentro del bosque había una zona donde los lamentos eran ensordecedores, y juan decide ir a liberarlos." << endl;
+                                cout << "1. La Danza de las Almas. " << endl;
+                                cout << "2. La Maldición Silente." << endl;
+                                cout << "3. El Espejismo del Descanso." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
                                 cin >> decision2; 
 								switch (decision2){
 									case 1:
-                                		cout << "\n---el lugar donde se dirigian estaba maldito---" << endl;
-                                		res=miedo+100;
+                                		cout << "\n---La Danza de las Almas.---" << endl;
+                                		res=miedo+92;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se sabía que las leyendas que se contaban de ese lugar eranciertas, y una ves el capitan había escuchado una historía de una sola persona que había salido con vida, entonces juan comenzo a temer de su vida." << endl;
+                                        cout << "Después de liberar las almas atrapadas en el bosque, comienzas a escuchar sus lamentos de gratitud. Sin embargo, pronto te das cuenta de que estas almas te persiguen, deseando compartir su sufrimiento contigo. Deberás decidir si enfrentas a las almas y buscas una manera de liberarlas completamente, o si permites que sus lamentos te envuelvan, sumiéndote en una danza eterna con los espíritus atormentados." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n---nunca habia salido un barco con tripulación viva. ---" << endl;
-                                    	res=miedo+85;
+                                    	cout << "\n---La Maldición Silente. ---" << endl;
+                                    	res=miedo+95;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "los marineros siempre preferian dar un rodeo a ese lugar, porque una ves estando cercas los radares comenzaban a fallar y perdian el rumbo. entonces juan temía ya no regresar a su casa nunca más." << endl;                                        						                                		
+                                        cout << "Al liberar las almas, descubres que una maldición silenciosa se propaga. Aquellos que escuchan los lamentos sin estar preparados sufren una pérdida gradual de sus propias voces y emociones. Puedes elegir advertir a los demás sobre la maldición, arriesgándote a ser ignorado o ridiculizado, o permanecer en silencio y permitir que la maldición se extienda, llevando consigo la pérdida de la capacidad de expresar la tristeza y la alegría." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n---un largo peregrinar en aguas desconocidas.---" << endl;
-                                    	res=miedo+100;
+                                    	cout << "\n---El Espejismo del Descanso.---" << endl;
+                                    	res=miedo+93;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "una ves adentrados en aguas desconocidas y sin radares y hubicación; el capitan le dice a la tripulación que estan perdidos y que tal ves va ser para siempre, entonces a juan le da miedo la noticia." << endl;                                        						                                		
+                                        cout << "Después de liberar las almas, te das cuenta de que el bosque crea ilusiones de aquellos a quienes has ayudado a descansar en paz. Estas ilusiones buscan agradecerte de maneras inquietantes. Deberás decidir si aceptas estos momentos falsos de consuelo, enfrentándote a la posibilidad de quedar atrapado en la ilusión, o si rechazas las sombras de la gratitud y buscas escapar del bosque antes de que las ilusiones se vuelvan más siniestras." << endl;                                        						                                		
                                 		break;	
                                 	default:
                                 	    cout<<"fin del juego";
@@ -985,34 +985,34 @@ int main(){
 								}                       		
                         		break;
 							case 3:
-								cout << "\n--- deja de funcionar el barco.---" << endl;
-                        		res=miedo+70;
+								cout << "\n--- El Espejismo de la Salida.---" << endl;
+                        		res=miedo+65;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "a plena marcha, el barco se detiene sin sentido, todo mundo se pregunta que es lo que esta pasando cuando el capitan se acerca y dice que tiene una falla es " << endl;
-                                cout << "1. el motro del barco se sobre calento." << endl;
-                                cout << "2. no se sabe por que dejo de funcionar." << endl;
-                                cout << "3. chocan contra un risco que no ven." << endl;
+                                cout << " siente que sale pero todo es una mera ilución del bosque." << endl;
+                                cout << "1. Las Voces Engañosas." << endl;
+                                cout << "2. La Sombra Desvaneciente." << endl;
+                                cout << "3. La Última Ilusión." << endl;
                                 cout << "4. salir del programa" << endl;
                                 int decision3;
                                 cin >> decision3;
 								switch (decision3){
 									case 1:
-										cout << "\n---el motro del barco se sobre calento.---" << endl;
-                                		res=miedo+80;
+										cout << "\n---Las Voces Engañosas.---" << endl;
+                                		res=miedo+99;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "deespues de los chequeos de rutina en el cuarto de maquina, el barco seguia sin prender y a juan eso le empezaba a asustar" << endl;
+                                        cout << "Al intentar escapar del bosque, las voces que te guían comienzan a susurrar mensajes contradictorios. Cada indicación lleva a un lugar más oscuro y peligroso. Deberás decidir si confías en las voces y sigues sus direcciones, enfrentándote a los horrores que te esperan, o si decides renunciar a su guía, sabiendo que ahora estás completamente perdido en el bosque siniestro." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n---no se sabe por que dejo de funcionar.---" << endl;
-                                    	res=miedo+80;
+                                    	cout << "\n---La Sombra Desvaneciente.---" << endl;
+                                    	res=miedo+95;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "entre la tripulación comenzaba a correr información sobre el mal funcionamiento, aunque juan no era creyente su miedo iba en aumento ya que no sabía si iba a regresar a casa. " << endl;                                        						                                		
+                                        cout << "Mientras buscas la salida, una sombra tenebrosa te persigue implacablemente. Sin embargo, descubres que cada vez que la enfrentas, se vuelve más débil y más pequeña. Deberás decidir si continúas enfrentándote a la sombra, enfrentándote al riesgo de que desaparezca por completo, o si permites que crezca en poder, amenazando con consumirte por completo. " << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n---chocan contra un risco que no ven. ---" << endl;
-                                    	res=miedo+100;
+                                    	cout << "\n---La Última Ilusión. ---" << endl;
+                                    	res=miedo+80;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "el golpe fue tan fuerte que el barco se empieza a undir, y mucha de la tripulación se empiesza a aventar por la borda, juan es uno de los que se avienta, pero al recordar que no sabe nadar se empieza a ahogar, con miedo empieza a dar manotadas pero de nada sirven, muere ahogado " << endl;                                        						                                		
+                                        cout << "Después de muchas horas de caminar, ves una salida clara y abierta. Sin embargo, al acercarte, descubres que es otra ilusión del bosque. Esta vez, la salida parece tan real que casi puedes tocarla. Deberás decidir si caes en la trampa de la última ilusión, aceptando la aparente libertad que se ofrece, o si resistes la tentación y buscas una salida real, incluso si no estás seguro de si existe realmente." << endl;                                        						                                		
                                 		break;	
                                 	default:
                                 	    cout<<"fin del juego";
@@ -1022,46 +1022,46 @@ int main(){
 						}
                         break;
                     case 3://sub menu 1.3  
-                    	cout << "\n--- sube a un barco que se val polo norte.---" << endl;
+                    	cout << "\n--- Camino subterraneo.---" << endl;
                     	res=miedo+35;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "siempre le atrajo conocer otras tierras, pero para él el polo norte era algo completamente desconocido y decide adentrarse en la aventura; llega al polo norte y decide." << endl;
-                        cout << "1. ir en busca del Yeti." << endl;
-                        cout << "2. ir en busca del Dragon Nidhogg." << endl;
-                        cout << "3. ir en busca del moustro Midgard." << endl;
+                        cout << "un tunel conecta a su casa con el bosque siniestro; pero muy poca gente sabía de el, entonces juan se adentra al tunel y encuentra 3 caminos con unas leyendas que decian:" << endl;
+                        cout << "1. este tunel te llevara a tu peor pesadilla." << endl;
+                        cout << "2. aquel que entre, dudara de su existencia en este mundo." << endl;
+                        cout << "3. si no sabes que es temer; entrad y aprenda." << endl;
                         cout << "4. Salir del programa" << endl;
                         int decision3;
                         cin >> decision3;
                         switch (decision3){
                         	case 1:
-                        		cout << "\n---ir en busca del Yeti.---" << endl;
+                        		cout << "\n---este tunel te llevara a tu peor pesadilla.---" << endl;
                         	    res=miedo+45;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "el abominable hombre de las nieves como también suele conocerle; muy poca gente lo habia visto vagar por esas tierras, y juan decide emprender la aventura." << endl;
-                                cout << "1. ir a buscarlo a la Cordillera de Kunk." << endl;
-                                cout << "2. ir a buscarlo a la Cordillera Ártica." << endl;
-                                cout << "3. ir a buscarlo a la Rocallosa." << endl;
+                                cout << "en este tunel no ingresabas fisicamente, solo por dedio del subconsiente, por eso es que se crean 3 historias a nivel sel subconsiente." << endl;
+                                cout << "1. El Túnel de los Espejismos" << endl;
+                                cout << "2. Las Voces del Pasado." << endl;
+                                cout << "3. El Espectro del Mañana." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
                                 	case 1://sub menu 1.3
-                                		cout << "\n--- ir a buscarlo a la Cordillera de Kunk. ---" << endl;
+                                		cout << "\n--- El Túnel de los Espejismos. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "una tormenta de nieve caia en ese momento; caminando sin rumbo ve una silueta que se le va aproximando muy rapido, a unons 200 metros se da cuenta de que es el Yeti y va a su encuentro; asustado trata de correr pero no lo logra, y el Yeti lo alcanza y lo mata." << endl;
+                                        cout << "Al ingresar al túnel, te encuentras en un pasillo lleno de espejos que reflejan tus peores temores. Cada reflejo muestra versiones distorsionadas de tus miedos más profundos. Deberás decidir si avanzas entre los espejos enfrentándote a tus pesadillas, o si retrocedes, sabiendo que el túnel parece estar jugando con tus propios miedos contra ti." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- ir a buscarlo a la Cordillera Ártica.---" << endl;
+                                    	cout << "\n--- Las Voces del Pasado.---" << endl;
                                     	res=miedo+89;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "una tormenta de nieve caia en ese momento; caminando sin rumbo ve una silueta que se le va aproximando muy rapido, a unons 200 metros se da cuenta de que es el Yeti y va a su encuentro; asustado trata de correr pero no lo logra, y el Yeti lo alcanza y lo mata." << endl;
+                                        cout << "Mientras caminas por el túnel, escuchas susurros que narran eventos de tu pasado de manera retorcida. Las voces te acusan de errores pasados y te atormentan con recuerdos distorsionados. Puedes optar por confrontar las voces y enfrentarte a la verdad incómoda, o huir de las acusaciones, temiendo lo que el túnel pueda revelar sobre ti mismo." << endl;
                                         break;
                                     case 3:
-									    cout << "\n--- ir a buscarlo a la Rocallosa.---" << endl;
+									    cout << "\n--- El Espectro del Mañana.---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "una tormenta de nieve caia en ese momento; caminando sin rumbo ve una silueta que se le va aproximando muy rapido, a unons 200 metros se da cuenta de que es el Yeti y va a su encuentro; asustado trata de correr pero no lo logra, y el Yeti lo alcanza y lo mata." << endl;
+                                        cout << "A medida que avanzas, el túnel proyecta visiones de un futuro aterrador. Ves eventos catastróficos y situaciones horribles que podrían suceder. Deberás decidir si aceptas estas visiones como inevitables, enfrentándote a un destino oscuro, o si desafías las predicciones del túnel, buscando cambiar el curso de tu futuro y enfrentándote a las consecuencias de tus elecciones." << endl;
 										break;
 									case 4:
                                         cout << "Fin de la partida" << endl;
@@ -1069,7 +1069,7 @@ int main(){
 							    }			     
                         		break;
                         	case 2:
-                        		cout << "\n--- ir en busca del Dragon Nidhogg. ---" << endl;
+                        		cout << "\n--- aquel que entre, dudara de su existencia en este mundo. ---" << endl;
                         		res=miedo+65;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                                 cout << "Es un dragón que vive en el Niflheim, los pobladores sercanos al sitio cuentan que el dragon dormita en la entrañas de la tierra, y que despierta cada cien mil años en busca de comida; pero nuestro viajero va a su encuentro, para llegar con el tiene que ir por 3 caminos subterraneos." << endl;
@@ -1104,7 +1104,7 @@ int main(){
 								}
 							break;
 						    case 3:
-						    	cout << "\n--- ir en busca del moustro de Midgard.---" << endl;
+						    	cout << "\n--- si no sabes que es temer; entrad y aprenda.---" << endl;
                         		res=miedo+60;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                                 cout << "sabe que en una cueva muy escondida en esa tierra lejana existia un moustro, la famosa serpiente Midgard, pero habia rumores de 3 cuevas en las que solia descansasr; y decide ir a buscarlas.." << endl;
