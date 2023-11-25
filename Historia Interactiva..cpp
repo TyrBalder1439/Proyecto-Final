@@ -1241,9 +1241,9 @@ int main(){
             	res=miedo+35;
             	cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                 cout << "al llegar a la comarca va en busca de las casas mas tenbrosas." << endl;
-                cout << "1. Mansion de la perpetua agonia." << endl;//casi listo 
+                cout << "1. Mansion de la perpetua agonia." << endl;
                 cout << "2. Morada de las Sombras." << endl;
-                cout << "3. Palacete del Terror." << endl;
+                cout << "3. Palacio del Terror." << endl;
                 cout << "4. Salir del programa" << endl;
                 int decision4;
                 cin >> decision4;
@@ -1252,7 +1252,7 @@ int main(){
                         cout << "\n--- Mansion de la perpetua agonia. ---" << endl;
                         res=miedo+45;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "se encamina a la Mansion; al llegar y entrar ve tres escaleras, que lo llevan a tres habitaciones de la Mansión.   " << endl;
+                        cout << "se encamina a la Mansion; al llegar y entrar ve tres escaleras, que lo llevan a tres habitaciones de la Mansión." << endl;
                         cout << "1. Habitación de la soledad." << endl;
                         cout << "2. Habitación de la locura." << endl;
                         cout << "3. Habitación de la tristesa." << endl;
@@ -1303,30 +1303,30 @@ int main(){
 							    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                                 cout << "al abrir la puerta ve que todo es color blanco, pero aun no siente mucho miedo y decide entrar; en la esquina de la habitacion encuentra." << endl;
-                                cout << "1. Adofl Hitler." << endl;
-                                cout << "2.  ." << endl;
-                                cout << "3. ." << endl;
+                                cout << "1. Susurros en la Oscuridad." << endl;
+                                cout << "2. Reflejo del Pasado." << endl;
+                                cout << "3. El Eco del Lamento." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
                                 cin >> decision2;
 								switch (decision2){
 									case 1:
-									    cout << "\n--- camina y entra en la cueva---" << endl;
+									    cout << "\n---Susurros en la Oscuridad--" << endl;
 									    res=miedo+96;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al entrar en la cueva encuentra lo mas horrible que jamas habia imaginado, y muere de miedo" << endl;
+                                        cout << "Al abrir la puerta de la habitación sellada, un silencio sepulcral envuelve al grupo. De repente, comienzan a escuchar susurros ininteligibles que parecen provenir de las sombras. Las voces se intensifican, revelando los oscuros secretos de los residentes antiguos. Pero cuando intentan huir, descubren que la puerta se cierra sola, dejándolos atrapados con las almas enloquecidas que buscan compañía." << endl;
                                         break;
                                     case 2:    
-									    cout << "\n--- se sienta y espera---" << endl;
+									    cout << "\n--- Reflejo del Pasado---" << endl;
 									    res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "sentado ve a lo lejos un moustro de sin cabeza, con miedo se levanta y se regresa a su casa" << endl;
+                                        cout << "Dentro de la habitación, encuentran un espejo antiguo cubierto de polvo. Al mirarlo, cada miembro del grupo ve reflejados sus miedos más profundos. Pronto, las figuras en el espejo cobran vida y comienzan a perseguirlos, encerrándolos en un laberinto de pesadillas personales. La única salida parece ser enfrentar los demonios internos, pero algunos descubren que la línea entre la cordura y la locura es más delgada de lo que imaginaban." << endl;
 									    break;
 									case 3:
-									    cout << "\n--- corre se tropiesa y cae---" << endl;
+									    cout << "\n---El Eco del Lamento---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se rompe una pierna y el miedo le arranaca una lagrima, por que sabe que ya no podra regresar" << endl;
+                                        cout << "Mientras exploran la habitación, descubren grabaciones antiguas de terapias psiquiátricas. De repente, las voces de los pacientes desesperados resuenan en el aire. Cada grito y lamento parece impregnar las paredes, creando una atmósfera opresiva. A medida que el sonido se intensifica, los miembros del grupo sienten que la locura se apodera de sus mentes, confundiéndolos entre la realidad y las penas del pasado." << endl;
 									    break;
 									case 4:
 										cout << "\n--- Salir del programa---" << endl;
@@ -1378,45 +1378,45 @@ int main(){
                         break;
                     case 2://sub menu 1.2                	    
                         cout << "\n--- Morada de las Sombras.---" << endl;
-                        res=miedo+43;
+                        res=miedo+45;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "durany decide" << endl;
-                        cout << "1. sentarse y reflexionar" << endl;
-                        cout << "2. correr para salir de ahí" << endl;
-                        cout << "3. empieza a delirar" << endl;
+                        cout << "se encamina a la Mansion; al llegar encuentra sombras por toda la casa, en eso una sombra se acerca y le dice que elija entre las tres habitaciones de la Morada." << endl;
+                        cout << "1. La Habitación de la lujuria." << endl;
+                        cout << "2. La Habitacón de la traición." << endl;
+                        cout << "3. La Habitación de la gula." << endl;
                         cout << "4. Salir del programa" << endl;
                         int decision2;
                         cin >> decision2;
                         switch (decision2){
                         	case 1:
-                        		cout << "\n--- sentarse y reflexionar ---" << endl;
+                        		cout << "\n---La Habitación de la lujuria.---" << endl;
                         		res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;                        		
-                                cout << "sentado recuerda a su familia,y la cabeza comienza a dar vueltas" << endl;
-                                cout << "1. retornar " << endl;
-                                cout << "2. llega una luchuza con una carta" << endl;
-                                cout << "3. decide ya no continuar" << endl;
+                                cout << "al abrir la puerta ve todas sus pasiones desenfrenadas y unos personajes que no creia encontrar,que ya hacian muertos mucho tiempo atras,pero aun no siente mucha tristesa y decide entrar; en un rincon de la habitacion encuentra." << endl;
+                                cout << "1. parejas que fueron condenadas. " << endl;
+                                cout << "2. Helena de Troya" << endl;
+                                cout << "3. Cleopatra." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
                                 	case 1:
-                                		cout << "\n--- retornar ---" << endl;
+                                		cout << "\n--- parejas que fueron condenadas. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "siente miedo de perder a su familia y regresa a su hogar con temor de no encontrarlos" << endl;
+                                        cout << "juan se encuentra con parejas que fueron condenadas por entregarse al pecado de la lujuria. Entre ellas, está Tristán e Isolda, quienes murieron por su amor prohibido y ahora experimentan tormentos por su deseo desenfrenado." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- llega una luchuza con una carta ---" << endl;
+                                    	cout << "\n--- Helena de Troya.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "en la carta, un amigo le cuenta que su familia murio por un huracan; solo, triste y muerto de miedo por no tener nada se quita la vida" << endl;                                        						                                		
+                                        cout << "al verla tuvo unos pensamientos de una lujura pasion con ella, pero recordo que ella ya hacia en el infierno, y le asusto verla tan hermosa como en vida lo fue." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n--- decide ya no continuar ---" << endl;
+                                    	cout << "\n---Cleopatra. ---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "pierde toda esperanza de segir" << endl;                                        						                                		
+                                        cout << "la hermosa cleopatra ya hacia tan imponente en ese sillón de terciopelo, que desperto los pensamientos mas lujuriosos en su mente, pero recordo que ella ya hacia en el infierno, y le asusto verla tan hermosa como en vida lo fue.." << endl;
                                 		break;	
                                 	case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1427,34 +1427,33 @@ int main(){
 								}
                         		break;
                         	case 2:
-                        		cout << "\n--- correr para salir de ahí ---" << endl;
+                        		cout << "\n---La Habitacón de la traición.---" << endl;
                         		res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "sale, y encuentra un minotauro " << endl;
-                                cout << "1. se enfrenta al minotauro " << endl;
-                                cout << "2. trata de regresar" << endl;
-                                cout << "3. toma una roca" << endl;
+                                cout << " en esta habitacón ya hacen los seres que en vida traicionaron sus ideales y sus principios." << endl;
+                                cout << "1. Los traidores a la patria." << endl;
+                                cout << "2. Branca d'Oria" << endl;
+                                cout << "3. lucifer." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
                                 cin >> decision2; 
 								switch (decision2){
 									case 1:
-                                		cout << "\n---se enfrenta al minotauro---" << endl;
+                                		cout << "\n---Los traidores a la patria.---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "el minotauro desenfunda una espada, y él sale corriendo por que no desea morrir" << endl;
+                                        cout << "Bruto y Casio: Ambos fueron implicados en la conspiración para asesinar a Julio César en el año 44 a.C. Bruto era hijo adoptivo de César y Casio era uno de los conspiradores; en su mente revivio las ecenas sucedidas ese dia y miedo fue ver eso." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- trata de regresar ---" << endl;
+                                    	cout << "\n---Branca d'Oria---" << endl;
                                     	res=miedo+85;
-            	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al regresar se da cuenta habia olvidado como era el camino de regreso" << endl;                                        						                                		
+            	                        cout << "Un noble genovés acusado de matar a su sobrino, Branca d'Oria es presentado por Dante como un ejemplo de traición familiar; sintio miedo al revivir los actos de traición en la cabeza de juan" << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n--- toma una roca ---" << endl;
+                                    	cout << "\n--- Lucifer.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "con la roca en la mano y temblando de temor, avienta la roca y se va corriendo" << endl;                                        						                                		
+                                        cout << "Había una vez en los reinos celestiales un ser resplandeciente conocido como Lucifer, el portador de luz. Dotado de belleza y poder inigualables, ocupaba un lugar especial en la jerarquía angelical. Sin embargo, en lo más profundo de su ser, creció una semilla de orgullo y deseo de igualarse a su Creador.La luminosidad de Lucifer se oscureció por su propia arrogancia, y en su corazón brotó una rebeldía que lo llevó a desafiar la autoridad divina. Incapaz de aceptar la idea de servir a la humanidad, anhelaba un poder que rivalizara con el de Dios mismo. Con esta rebelión en su corazón, Lucifer lideró una insurrección celestial; juan escucho la historia de los labios de lucifer que lo hicieron temblar." << endl;                                        						                                		
                                 		break;	
                                 	case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1465,34 +1464,34 @@ int main(){
 								}                       		
                         		break;
 							case 3:
-								cout << "\n--- empieza a delirar ---" << endl;
+								cout << "\n--- La Habitación de la gula.---" << endl;
                         		res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "en sus alucinaciones se aparace ante él un viejo amor que en tiempos pasado adoro a morir " << endl;
-                                cout << "1. se acerca a la alucinación" << endl;
-                                cout << "2. se da cuenta que es una alucinación" << endl;
-                                cout << "3. le reprocha lo vivido" << endl;
+                                cout << "" << endl;
+                                cout << "1. El Banquete Eterno." << endl;
+                                cout << "2. Los Chef Condenados." << endl;
+                                cout << "3. La Sombra del Cocinero Famoso." << endl;
                                 cout << "4. salir del programa" << endl;
                                 int decision3;
                                 cin >> decision3;
 								switch (decision3){
 									case 1:
-										cout << "\n---se acerca a la alucinación---" << endl;
+										cout << "\n---El Banquete Eterno.---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "trata de abrazarla pero por mas que intenta no puede, y su miedo de desborda" << endl;
+                                        cout << "Juan se encuentra con almas atrapadas en una sala de banquetes eterno. La mesa está llena de manjares exquisitos, pero cada vez que intentan comer, la comida se convierte en algo repugnante. Aquí, un antiguo rey, conocido por su extravagancia en la vida, intenta agarrar una uva solo para encontrar gusanos. La lección es clara: la indulgencia sin límites lleva a la repulsión eterna" << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- se da cuenta que es una alucinación ---" << endl;
+                                    	cout << "\n--- Los Chef Condenados---" << endl;
                                     	res=miedo+80;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "no le toma importancia y se va " << endl;                                        						                                		
+                                        cout << "En una esquina de la habitación, Juan descubre a famosos chefs de la historia. Cada uno intenta cocinar deliciosos platos, pero sus creaciones se transforman en algo insípido o amargo. Entre ellos, un chef gourmet del Renacimiento se lamenta por sus excesos y la falta de aprecio por la simplicidad y la moderación en sus preparaciones culinarias." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n---le reprocha lo vivido---" << endl;
+                                    	cout << "\n---La Sombra del Cocinero Famoso.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "con lagrimas en los ojos le recuerda cada instante vivido" << endl;                                        						                                		
+                                        cout << "Un chef famoso que había hecho delicias para reyes y reinas en vida ahora está reducido a buscar restos de comida entre la mugre. Cada vez que intenta probar algo, su boca se llena de tierra. Este personaje representa la ironía de aquellos que, en vida, creían que el placer supremo radicaba en la comida exquisita, solo para encontrarse con la amargura en la muerte." << endl;                                        						                                		
                                 		break;	
                                 	case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1505,46 +1504,46 @@ int main(){
 						}
                         break;
                     case 3://sub menu 1.3  
-                    	cout << "\n--- Palacete del Terror.---" << endl;
+                    	cout << "\n--- Palacio del Terror.---" << endl;
                     	res=miedo+35;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "el sol abrazabasor de la tarde lo orillaba a protejerse y continuar el camino" << endl;
-                        cout << "1. buscar con que protejerce" << endl;
-                        cout << "2. no preocuparse del sol y seguir " << endl;
-                        cout << "3. buscar un medio de tranporte " << endl;
+                        cout << "" << endl;
+                        cout << "1. Puertas Cambiantes." << endl;//listo 
+                        cout << "2. Espejismos Cambiantes." << endl;
+                        cout << "3. las Sombras Engañosas." << endl;
                         cout << "4. Salir del programa" << endl;
                         int decision3;
                         cin >> decision3;
                         switch (decision3){
                         	case 1:
-                        		cout << "\n--- buscar con que protejerce ---" << endl;
+                        		cout << "\n---Puertas Cambiantes. ---" << endl;
                         	    res=miedo+50;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "caminando encuentra un turbante, pero al acercarse, se da cuenta que esta protegido por vivoras, tarantulas y alacranes, cada uno de ellos proteje un turbante ." << endl;
-                                cout << "1. tomarlo donde lo protegen los alacranes" << endl;
-                                cout << "2. tomarlo donde lo protegen las vivoras" << endl;
-                                cout << "3. tomarlo donde lo protegen las tarantulas" << endl;
+                                cout << " ." << endl;
+                                cout << "1. Puerta de los Remordimientos." << endl;
+                                cout << "2. Puerta de las Pesadillas." << endl;
+                                cout << "3. Puerta de los Olvidos." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
                                 	case 1://sub menu 1.3
-                                		cout << "\n--- tomarlo donde lo protegen los alacranes ---" << endl;
+                                		cout << "\n--- Puerta de los Remordimientos---" << endl;
                                 		res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se aproxima, pero no se percata que un alacran se sube a su pierna, le pica y ahi queda a morir" << endl;
+                                        cout << "En el corredor sombrío, Juan se encuentra ante una puerta que cambia constantemente. Cada vez que intenta abrirla, muestra imágenes de los remordimientos más profundos de su vida. En un giro macabro, la puerta se convierte en un espejo que refleja sus peores decisiones." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- tomarlo donde lo protegen las vivoras---" << endl;
+                                    	cout << "\n--- Puerta de las Pesadillas.---" << endl;
                                     	res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se aproxima muy rapido y coje el turvante sin que lo muerdan las serpientes; su corazon solo late del miedo que sintio" << endl;
+                                        cout << "Otra puerta parece susurrar terrores inconcebibles. Al abrirla, Juan se ve atrapado en visiones aterradoras de monstruos y criaturas indescriptibles que representan sus miedos más profundos, acechándolo en un laberinto de sombras." << endl;
                                         break;
                                     case 3:
-									    cout << "\n--- tomarlo donde lo protegen las tarantulas---" << endl;
+									    cout << "\n---Puerta de los Olvidos---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "una tarantula salta hacía el y lo pica, el asustado la quita y se va, pero no llega lejos; el veneno había echo de la suyas" << endl;
+                                        cout << "La última puerta es simple y olvidada. Al abrirla, Juan descubre un pasillo oscuro lleno de murmullos incomprensibles. Se da cuenta de que está en una habitación donde los olvidos se manifiestan en sus formas más inquietantes, representando eventos perdidos y recuerdos desvanecidos." << endl;
 										break;
 									case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1555,34 +1554,34 @@ int main(){
 							    }			     
                         		break;
                         	case 2:
-                        		cout << "\n--- no preocuparse del sol y seguir ---" << endl;
+                        		cout << "\n--- Espejismos Cambiantes ---" << endl;
                         		res=miedo+50;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "sigo el camino, pero el sol  y la falta de agua hace que empiece a ver cosas" << endl;
-                                cout << "1. ve un oasis " << endl;
-                                cout << "2. ve una serpiente gigante" << endl;
-                                cout << "3. ve aproximarse un carro " << endl;
+                                cout << "" << endl;
+                                cout << "1. Espejismo del Abandono." << endl;
+                                cout << "2. Espejismo de la Culpa." << endl;
+                                cout << "3. Espejismo de la Perdición." << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
                                 cin >> decision2; 
 								switch (decision2){
 									case 1:
-                                		cout << "\n---ve un oasis ---" << endl;
-                                		res=miedo+85;
+                                		cout << "\n---Espejismo del Abandono---" << endl;
+                                		res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se echa a correr hacía el oasis, par vever agua, pero cuando creee tomar agua, resulta que es arena y su miedo aumenta al saber que no va a encontrar agua" << endl;
+                                        cout << "Juan se encuentra ante un espejismo que refleja su soledad más profunda. Mientras camina hacia él, las sombras toman forma de amigos y seres queridos que lo abandonaron en vida, dejándolo solo en un paisaje desolado." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n--- ve una serpiente gigante ---" << endl;
+                                    	cout << "\n---Espejismo de la Culpa---" << endl;
                                     	res=miedo+92;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "ve que se abalanza hacía el y lo unico que logra hacer es cubrirse con las manos, despues de un rato se da cuenta que solo alucino." << endl;                                        						                                		
+                                        cout << "Otro espejismo lo lleva a enfrentarse a sus culpas más dolorosas. Cada imagen que muestra refleja momentos en los que causó sufrimiento a otros. El espejo lo confronta con sus acciones pasadas, haciendo que sienta la carga de la culpa." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n---ve aproximarse un carro ---" << endl;
+                                    	cout << "\n---Espejismo de la Perdición.---" << endl;
                                     	res=miedo+91;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "reslta que el carro es real, lo invitan a subir y se va." << endl;                                        						                                		
+                                        cout << "Juan se ve atrapado en un espejismo que proyecta su propia perdición. Visiones de su futuro oscuro y desesperanzado lo atormentan mientras lucha por escapar de las sombras que amenazan con consumirlo." << endl;                                        						                                		
                                 		break;	
                                     case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1593,34 +1592,34 @@ int main(){
 								}
 							break;
 						    case 3:
-						    	cout << "\n--- buscar un medio de tranporte ---" << endl;
+						    	cout << "\n--- las Sombras Engañosas ---" << endl;
                         		res=miedo+45;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "caminando encuentra 3 medios de transporte, pero estan condicionados." << endl;
-                                cout << "1. primera condición par que pueda llevarse un camello es clavarse una navaja en la pierna. " << endl;
-                                cout << "2. segunda condición es ser mordido por una serpiente, y podra llevarse un carro. " << endl;
-                                cout << "3. tercera condición es cortarse las venas. " << endl;
+                                cout << "." << endl;
+                                cout << "1. Sombra de la Desconfianza. " << endl;
+                                cout << "2. Sombra de la Desesperación. " << endl;
+                                cout << "3. Sombra de la Autodestrucción. " << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision3;
                                 cin >> decision3; 
 								switch (decision3){
 									case 1:
-                                		cout << "\n---primera condición par que pueda llevarse un camello es clavarse una navaja en la pierna. ---" << endl;
-                                		res=miedo+85;
+                                		cout << "\n---Sombra de la Desconfianza. ---" << endl;
+                                		res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se clava la navaja y el dolor lo hace sentir un miedo que rrecorre su cuerpo." << endl;
+                                        cout << "Entre las sombras danzantes, Juan se encuentra con una sombra que representa la desconfianza. Esta sombra se disfraza como amigos y aliados, pero cada palabra que pronuncian es una trampa mortal, mostrándole las trampas de la confianza ciega." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n---segunda condición es ser mordido por una serpiente, y podra llevarse un carro.---" << endl;
+                                    	cout << "\n---Sombra de la Desesperación.---" << endl;
                                     	res=miedo+92;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al morderlo la serpiente siente como el veneno pasa por cada vena, empieza a sudar y a tener miedo por que no tiene antidoto; muere." << endl;                                        						                                		
+                                        cout << "Otra sombra parece reflejar la desesperación más profunda. Juan se enfrenta a sus peores miedos y fracasos personales, representados por esta sombra engañosa que amenaza con sumergirlo en una eternidad de desesperanza." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n---tercera condición es cortarse las venas.---" << endl;
+                                    	cout << "\n---Sombra de la Autodestrucción.---" << endl;
                                     	res=miedo+91;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "la sangre brota por sus brazos, siente debilidad, la vista le falla y el miedo apparece." << endl;                                        						                                		
+                                        cout << "La última sombra se revela como un reflejo oscuro de sus propias debilidades. Mientras lucha por escapar de su influencia, la sombra de la autodestrucción lo lleva por un laberinto de malas decisiones y acciones que amenazan con devorarlo." << endl;                                        						                                		
                                 		break;	
                                 	case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1645,9 +1644,7 @@ int main(){
                 exit(0);
             default:
                 cout << "Opción no válida. Inténtalo de nuevo." << endl;
-	}
-	
-	
+	    }  
 	}while (opcion != '5' && opcion != '4' );
 	return 0;
 }
