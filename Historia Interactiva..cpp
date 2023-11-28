@@ -24,7 +24,7 @@ int main(){
     cin>>opcion;
 	
 	 switch (opcion) {
-            case 1://submenu 1
+            case 1:
             	cout << "\n--- viajar a la cueva de las sombras ---" << endl;
             	res=miedo+25;
             	cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -36,23 +36,23 @@ int main(){
                 int decision1;
                 cin >> decision1;
                 switch (decision1){
-                	case 1://sub menu 1.1
+                	case 1:
                         cout << "\n--- el sendero de la soledades perdidas ---" << endl;
                         res=miedo+50;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                         cout << "durante el camino no escucha ni un solo ruido, caminando encuentra una sombra que le indica " << endl;
                         cout << "1. quedarse en su soledad infita" << endl;
                         cout << "2. continuar para encontar la cueva" << endl;
-                        cout << "3. perderse dentro del cendero" << endl;
+                        cout << "3. perderse dentro del sendero" << endl;
                         cout << "4. Salir del programa" << endl;
                         int decision1;
                         cin >> decision1;
                         switch (decision1){
-                        	case 1://sub menu 1.2
+                        	case 1:
                         	    cout << "\n--- quedarse en su soledad infita ---" << endl;
                         	    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "reflexiona que vivir es un cumulo de sentimientos,entonces, decide irse,  pero la sombra que se aparece no lo deja irse." << endl;
+                                cout << "reflexiona que vivir es un cumulo de sentimientos,entonces decide irse,  pero la sombra que se aparece no lo deja irse." << endl;
                                 cout << "1. luchar contra la sombra" << endl;
                                 cout << "2. ser mas astuto que la sombra" << endl;
                                 cout << "3. llorar por no encontar una solucion" << endl;
@@ -60,7 +60,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n--- luchar contra la sombra ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -76,7 +76,7 @@ int main(){
 									    cout << "\n--- llorar por no encontar una solución---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "tiene sentimientos de impotencia" << endl;
+                                        cout << "tiene sentimientos de impotencia, y ello le da un miedo escalofriante." << endl;
 										break;
 									case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -86,13 +86,13 @@ int main(){
                                         cout << "Opción no válida. Volviendo al inicio.\n";										                                           
 								}
                                 break;
-                            case 2://sub menu 1.2
+                            case 2:
 							    cout << "\n--- continuar para encontar la cueva ---" << endl;
 							    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                                 cout << "prosigue su camino, hasta divisar la cueva" << endl;
                                 cout << "1. camina y entra en la cueva" << endl;
-                                cout << "2.  se sienta y espera" << endl;
+                                cout << "2. se sienta y espera" << endl;
                                 cout << "3. corre se tropiesa y cae" << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision2;
@@ -152,7 +152,7 @@ int main(){
 									    cout << "\n--- va dejando marcas en los arboles---" << endl;
 									    res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "se da cuenta  que no encuentra salida y decide morir perdido en el sndero" << endl;
+                                        cout << "se da cuenta  que no encuentra salida y decide morir perdido en el sendero" << endl;
 									    break;
 									case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -161,10 +161,16 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";			
 								}                        		                        		
-                        		break;								
+                        		break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";										
 						}
                         break;
-                    case 2://sub menu 1.2                	    
+                    case 2:               	    
                         cout << "\n--- el camino de la desesperanza del corazon ---" << endl;
                         res=miedo+50;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -289,10 +295,16 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";																		    
 								}							
-								break;     										
+								break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";		     										
 						}
                         break;
-                    case 3://sub menu 1.3  
+                    case 3:
                     	cout << "\n--- el desierto infinito---" << endl;
                     	res=miedo+35;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -316,7 +328,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n--- tomarlo donde lo protegen los alacranes ---" << endl;
                                 		res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -370,7 +382,7 @@ int main(){
                                     	cout << "\n---ve aproximarse un carro ---" << endl;
                                     	res=miedo+91;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "reslta que el carro es real, lo invitan a subir y se va." << endl;                                        						                                		
+                                        cout << "resulta que el carro es real, lo invitan a subir y se va." << endl;                                        						                                		
                                 		break;	
                                     case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -379,7 +391,7 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";									
 								}
-							break;
+							    break;
 						    case 3:
 						    	cout << "\n--- buscar un medio de tranporte ---" << endl;
                         		res=miedo+45;
@@ -417,7 +429,13 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";																				
 								}
-						    	break;									
+						    	break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";											
 						}
 				    	   break; 				    	
 					case 4:
@@ -440,7 +458,7 @@ int main(){
                 int decision2;
                 cin >> decision2;
 				switch (decision2){
-                	case 1://sub menu 1.1
+                	case 1:
                         cout << "\n--- sube al barco de rumania ---" << endl;
                         res=miedo+30;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -452,7 +470,7 @@ int main(){
                         int decision1;
                         cin >> decision1;
                         switch (decision1){
-                        	case 1://sub menu 1.2
+                        	case 1:
                         	    cout << "\n--- por las catacumbas de la ciudad ---" << endl;
                         	    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -464,7 +482,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n--- la entrada secreta al castillo. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -490,7 +508,7 @@ int main(){
                                         cout << "Opción no válida. Volviendo al inicio.\n";									                                           
 								}
                                 break;
-                            case 2://sub menu 1.2
+                            case 2:
 							    cout << "\n--- desde bucares toma un carro. ---" << endl;
 							    res=miedo+70;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -565,10 +583,16 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";			
 								}                        		                        		
-                        		break;								
+                        		break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";										
 						}
                         break;
-                    case 2://sub menu 1.2                	    
+                    case 2:                	    
                         cout << "\n---sube al barco de el triangulo de las bermudas---" << endl;
                         res=miedo+38;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -693,10 +717,16 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";																	    
 								}							
-								break;     										
+								break; 
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";		    										
 						}
                         break;
-                    case 3://sub menu 1.3  
+                    case 3:
                     	cout << "\n--- sube a un barco que se val polo norte.---" << endl;
                     	res=miedo+35;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -783,7 +813,7 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";										
 								}
-							break;
+							    break;
 						    case 3:
 						    	cout << "\n--- ir en busca del moustro de Midgard.---" << endl;
                         		res=miedo+60;
@@ -821,15 +851,21 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";										
 								}
-						    	break;									
+						    	break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";											
 						}
-				    	   break; 				    	
-					case 4:
-					cout << "\n--- Salir del programa---" << endl;
-                    cout << "Fin de la partida" << endl;
-					break;	
-					default:										
-                    cout << "Opción no válida. Volviendo al inicio.\n";	
+				    	break; 				    	
+				   	case 4:
+				        cout << "\n--- Salir del programa---" << endl;
+                        cout << "Fin de la partida" << endl;
+				        break;	
+				   	default:										
+                        cout << "Opción no válida. Volviendo al inicio.\n";	
 				}          
                 break;
             case 3:
@@ -844,7 +880,7 @@ int main(){
                 int decision3;
                 cin >> decision3;
                 switch (decision3){
-                    case 1://sub menu 1.1
+                    case 1:
                         cout << "\n--- Se adentra sin dudarlo. ---" << endl;
                         res=miedo+30;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -856,7 +892,7 @@ int main(){
                         int decision1;
                         cin >> decision1;
                         switch (decision1){
-                        	case 1://sub menu 1.2
+                        	case 1:
                         	    cout << "\n--- Cofre amararillo.---" << endl;
                         	    res=miedo+45;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -868,7 +904,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n---primera llave. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -969,7 +1005,13 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";	    
 								}                        		                        		
-                        		break;								
+                        		break;
+							case 4:
+					        cout << "\n--- Salir del programa---" << endl;
+                            cout << "Fin de la partida" << endl;
+					        break;	
+				     	    default:										
+                            cout << "Opción no válida. Volviendo al inicio.\n";									
 						}
                         break;
                     case 2://sub menu 1.2                	    
@@ -1097,10 +1139,16 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";																		    
 								}							
-								break;     										
-						}
+								break; 
+							case 4:
+					        cout << "\n--- Salir del programa---" << endl;
+                            cout << "Fin de la partida" << endl;
+					        break;	
+				         	default:										
+                            cout << "Opción no válida. Volviendo al inicio.\n";		    										
+					 	}
                         break;
-                    case 3://sub menu 1.3 
+                    case 3:
                     	cout << "\n--- Camino subterraneo.---" << endl;
                     	res=miedo+35;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1124,7 +1172,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n--- El Túnel de los Espejismos. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1188,35 +1236,35 @@ int main(){
                                         cout << "Opción no válida. Volviendo al inicio.\n";										
 								}
 							break;
-						    case 3://------------------------------------------------------------
+						    case 3:
 						    	cout << "\n--- si no sabes que es temer; entrad y aprenda.---" << endl;
                         		res=miedo+50;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
                                 cout << "entra y dentro encuentra un nomo que le dice " << endl;
-                                cout << "1. " << endl;
-                                cout << "2. la cueva Cueva de Dobsinska. " << endl;
-                                cout << "3. la cueva de hielo de Ningwu. " << endl;
+                                cout << "1. Sombras del pasado." << endl;
+                                cout << "2. Dudas del presente. " << endl;
+                                cout << "3. Temores del futuro. " << endl;
                                 cout << "4.Salir del programa" << endl;
                                 int decision3;
                                 cin >> decision3; 
 								switch (decision3){
 									case 1:
-                                		cout << "\n---la cueva de hielo de Mendenhall. ---" << endl;
+                                		cout << "\n---Sombras del pasado. ---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al igresar escucha un ronquido que le enchina la piel, pero sigue, al fonde de esa estructura de hielo ve en la oscuridad la mirada siniestra que lo observa, y en ese presiso momento siente recorrer en miedo escalofriante." << endl;
+                                        cout << "En el corazón del camino, Juan se encontró con una figura oscura que reflejaba sus remordimientos más profundos. Era una manifestación de su pasado, un recordatorio constante de decisiones mal tomadas. Sin embargo, en lugar de huir, Juan decidió enfrentarse a la sombra. Al hacerlo, descubrió que solo aceptando y aprendiendo de sus errores podía liberarse del peso del pasado." << endl;
                                         break;
                                     case 2:
-                                    	cout << "\n---la cueva Cueva de Dobsinska.---" << endl;
+                                    	cout << "\n---Dudas del presente.---" << endl;
                                     	res=miedo+98;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al igresar escucha un ronquido que le enchina la piel, pero sigue, al fonde de esa estructura de hielo ve en la oscuridad la mirada siniestra que lo observa, y en ese presiso momento siente recorrer en miedo escalofriante." << endl;                                        						                                		
+                                        cout << "Mientras avanzaba más profundamente, Juan se topó con un espejismo que proyectaba sus dudas actuales. La criatura le habló en susurros, cuestionando sus elecciones y sembrando la semilla de la incertidumbre, y sucumbe con temor ante la confusión." << endl;                                        						                                		
                                 		break;
                                 	case 3:
-                                    	cout << "\n---la cueva de hielo de Ningwu.---" << endl;
+                                    	cout << "\n---Temores del futuro.---" << endl;
                                     	res=miedo+99;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                        cout << "al igresar escucha un ronquido que le enchina la piel, pero sigue, al fonde de esa estructura de hielo ve en la oscuridad la mirada siniestra que lo observa, y en ese presiso momento siente recorrer en miedo escalofriante. " << endl;                                        						                                		
+                                        cout << "Finalmente, Juan llegó al corazón del bosque, donde la criatura se reveló como un reflejo de sus temores futuros. Se enfrentó a visiones aterradoras de lo que podría enfrentar: la soledad, la pérdida, el desconocido." << endl; 
                                 		break;	
                                 	case 4:
 									    cout << "\n--- Salir del programa---" << endl;
@@ -1225,18 +1273,24 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";										
 								}
-						    	break;									
-						}
+						    	break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";											
+						   }
 				    	   break; 				    	
-				        case 4:
-				        cout << "\n--- Salir del programa---" << endl;
+				    case 4:
+					    cout << "\n--- Salir del partida---" << endl;
                         cout << "Fin de la partida" << endl;
-			        	break;	
-			         	default:										
-                        cout << "Opción no válida. Volviendo al inicio.\n";	;
+					    break;	
+				    default:										
+                        cout << "Opción no válida. Volviendo al inicio.\n";
 				}                
                 break;
-            case 4://------------------------------------------------------------re hacer historia antes del domingo.
+            case 4:
             	cout << "\n---se encamina a la comarca ---" << endl;
             	res=miedo+35;
             	cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1248,7 +1302,7 @@ int main(){
                 int decision4;
                 cin >> decision4;
                 switch (decision4){
-                	case 1://sub menu 1.1
+                	case 1:
                         cout << "\n--- Mansion de la perpetua agonia. ---" << endl;
                         res=miedo+45;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1260,7 +1314,7 @@ int main(){
                         int decision1;
                         cin >> decision1;
                         switch (decision1){
-                        	case 1://sub menu 1.2
+                        	case 1:
                         	    cout << "\n--- Habitación de la soledad. ---" << endl;
                         	    res=miedo+60;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1272,7 +1326,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n--- Una Monja.---" << endl;
                                 		res=miedo+100;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1373,10 +1427,16 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";			
 								}                        		                        		
-                        		break;								
+                        		break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";										
 						}
                         break;
-                    case 2://sub menu 1.2                	    
+                    case 2:                	    
                         cout << "\n--- Morada de las Sombras.---" << endl;
                         res=miedo+45;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1500,15 +1560,21 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";																		    
 								}							
-								break;     										
+								break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";		     										
 						}
                         break;
-                    case 3://sub menu 1.3  
+                    case 3:
                     	cout << "\n--- Palacio del Terror.---" << endl;
                     	res=miedo+35;
             	        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                        cout << "" << endl;
-                        cout << "1. Puertas Cambiantes." << endl;//listo 
+                        cout << "Juan se encuentra frente al Palacio del Terror, una construcción ominosa que se alza en medio de un paisaje desolado. Sus torres parecen desafiar al mismo infierno, y sus murallas están adornadas con imágenes distorsionadas de las peores pesadillas de aquellos condenados, y al ingresar encuentra." << endl;
+                        cout << "1. Puertas Cambiantes." << endl; 
                         cout << "2. Espejismos Cambiantes." << endl;
                         cout << "3. las Sombras Engañosas." << endl;
                         cout << "4. Salir del programa" << endl;
@@ -1519,7 +1585,7 @@ int main(){
                         		cout << "\n---Puertas Cambiantes. ---" << endl;
                         	    res=miedo+50;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << " ." << endl;
+                                cout << "al ingresasr encuentra con una puerta que esta en constante cambio." << endl;
                                 cout << "1. Puerta de los Remordimientos." << endl;
                                 cout << "2. Puerta de las Pesadillas." << endl;
                                 cout << "3. Puerta de los Olvidos." << endl;
@@ -1527,7 +1593,7 @@ int main(){
                                 int decision1;
                                 cin >> decision1;
                                 switch (decision1){
-                                	case 1://sub menu 1.3
+                                	case 1:
                                 		cout << "\n--- Puerta de los Remordimientos---" << endl;
                                 		res=miedo+90;
             	                        cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
@@ -1557,7 +1623,7 @@ int main(){
                         		cout << "\n--- Espejismos Cambiantes ---" << endl;
                         		res=miedo+50;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "" << endl;
+                                cout << "al ingresar encuentra un espejo que cambia segun su miedo." << endl;
                                 cout << "1. Espejismo del Abandono." << endl;
                                 cout << "2. Espejismo de la Culpa." << endl;
                                 cout << "3. Espejismo de la Perdición." << endl;
@@ -1595,7 +1661,7 @@ int main(){
 						    	cout << "\n--- las Sombras Engañosas ---" << endl;
                         		res=miedo+45;
             	                cout << "----------nuvel de miedo:"<< res <<"%---------" <<endl;
-                                cout << "." << endl;
+                                cout << "." << endl;//------------------------------------------------------------------
                                 cout << "1. Sombra de la Desconfianza. " << endl;
                                 cout << "2. Sombra de la Desesperación. " << endl;
                                 cout << "3. Sombra de la Autodestrucción. " << endl;
@@ -1628,15 +1694,21 @@ int main(){
 									default:										
                                         cout << "Opción no válida. Volviendo al inicio.\n";																				
 								}
-						    	break;									
+						    	break;
+							case 4:
+					            cout << "\n--- Salir del programa---" << endl;
+                                cout << "Fin de la partida" << endl;
+					            break;	
+				         	default:										
+                                cout << "Opción no válida. Volviendo al inicio.\n";											
 						}
-				    	   break; 				    	
+				        break; 				    	
 					case 4:
-					cout << "\n--- Salir del programa---" << endl;
-                    cout << "Fin de la partida" << endl;
-					break;	
+					    cout << "\n--- Salir del programa---" << endl;
+                        cout << "Fin de la partida" << endl;
+					    break;	
 					default:										
-                    cout << "Opción no válida. Volviendo al inicio.\n";	                		
+                        cout << "Opción no válida. Volviendo al inicio.\n";	                		
 				}
                 break;
             case 5:
